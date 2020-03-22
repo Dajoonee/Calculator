@@ -1,12 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
 <?import javafx.scene.control.Button?>
 <?import javafx.scene.control.Label?>
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.shape.Rectangle?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane prefHeight="610.0" prefWidth="452.0" style="-fx-background-color: #f08080;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="calculatorApplication.CalController">
+<AnchorPane prefHeight="610.0" prefWidth="452.0" style="-fx-background-color: #f08080;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="calculatorApplication.CalController">
    <children>
       <Label alignment="CENTER" contentDisplay="CENTER" layoutX="89.0" layoutY="40.0" text="CALCULATOR" textAlignment="CENTER" textFill="WHITE">
          <font>
@@ -53,32 +58,32 @@
             <Font name="Arial" size="31.0" />
          </font>
       </Button>
-      <Button fx:id="btn4" layoutX="38.0" layoutY="361.0" mnemonicParsing="false" onAction="#inputNum" prefHeight="58.0" prefWidth="80.0" style="-fx-background-color: #FFFFFF;" text="4">
+      <Button fx:id="btn4" layoutX="38.0" layoutY="361.0" mnemonicParsing="false" prefHeight="58.0" prefWidth="80.0" style="-fx-background-color: #FFFFFF;" text="4">
          <font>
             <Font name="Arial" size="25.0" />
          </font>
       </Button>
-      <Button fx:id="btn5" layoutX="131.0" layoutY="361.0" mnemonicParsing="false" onAction="#inputNum" prefHeight="58.0" prefWidth="80.0" style="-fx-background-color: #FFFFFF;" text="5">
+      <Button fx:id="btn5" layoutX="131.0" layoutY="361.0" mnemonicParsing="false" prefHeight="58.0" prefWidth="80.0" style="-fx-background-color: #FFFFFF;" text="5">
          <font>
             <Font name="Arial" size="25.0" />
          </font>
       </Button>
-      <Button fx:id="btn6" layoutX="226.0" layoutY="361.0" mnemonicParsing="false" onAction="#inputNum" prefHeight="58.0" prefWidth="80.0" style="-fx-background-color: #FFFFFF;" text="6">
+      <Button fx:id="btn6" layoutX="226.0" layoutY="361.0" mnemonicParsing="false" prefHeight="58.0" prefWidth="80.0" style="-fx-background-color: #FFFFFF;" text="6">
          <font>
             <Font name="Arial" size="25.0" />
          </font>
       </Button>
-      <Button fx:id="btn" layoutX="38.0" layoutY="429.0" mnemonicParsing="false" onAction="#inputNum" prefHeight="58.0" prefWidth="80.0" style="-fx-background-color: #FFFFFF;" text="1">
+      <Button fx:id="btn1" layoutX="38.0" layoutY="429.0" mnemonicParsing="false" prefHeight="58.0" prefWidth="80.0" style="-fx-background-color: #FFFFFF;" text="1">
          <font>
             <Font name="Arial" size="25.0" />
          </font>
       </Button>
-      <Button fx:id="btn" layoutX="131.0" layoutY="429.0" mnemonicParsing="false" onAction="#inputNum" prefHeight="58.0" prefWidth="80.0" style="-fx-background-color: #FFFFFF;" text="2">
+      <Button fx:id="btn2" layoutX="131.0" layoutY="429.0" mnemonicParsing="false" onAction="#getNum2" prefHeight="58.0" prefWidth="80.0" style="-fx-background-color: #FFFFFF;" text="2">
          <font>
             <Font name="Arial" size="25.0" />
          </font>
       </Button>
-      <Button fx:id="btn" layoutX="226.0" layoutY="429.0" mnemonicParsing="false" onAction="#inputNum" prefHeight="58.0" prefWidth="80.0" style="-fx-background-color: #FFFFFF;" text="3">
+      <Button fx:id="btn" layoutX="226.0" layoutY="429.0" mnemonicParsing="false" prefHeight="58.0" prefWidth="80.0" style="-fx-background-color: #FFFFFF;" text="3">
          <font>
             <Font name="Arial" size="25.0" />
          </font>
@@ -88,7 +93,7 @@
             <Font name="Arial" size="31.0" />
          </font>
       </Button>
-      <Button fx:id="btn0" layoutX="131.0" layoutY="498.0" mnemonicParsing="false" onAction="#inputNum" prefHeight="58.0" prefWidth="80.0" style="-fx-background-color: #FFFFFF;" text="0">
+      <Button fx:id="btn0" layoutX="131.0" layoutY="498.0" mnemonicParsing="false" prefHeight="58.0" prefWidth="80.0" style="-fx-background-color: #FFFFFF;" text="0">
          <font>
             <Font name="Arial" size="25.0" />
          </font>
