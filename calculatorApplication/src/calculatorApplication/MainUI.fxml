@@ -23,7 +23,7 @@
             <Font name="Arial" size="25.0" />
          </font>
       </Button>
-      <Button fx:id="btnDivide" layoutX="131.0" layoutY="229.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="80.0" style="-fx-background-color: #FFFFFF;" text="÷">
+      <Button fx:id="btnDivide" layoutX="131.0" layoutY="229.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="80.0" style="-fx-background-color: #FFFFFF;" text="/">
          <font>
             <Font name="Arial" size="25.0" />
          </font>
@@ -78,12 +78,12 @@
             <Font name="Arial" size="25.0" />
          </font>
       </Button>
-      <Button fx:id="btn2" layoutX="131.0" layoutY="429.0" mnemonicParsing="false" onAction="#getNum2" prefHeight="58.0" prefWidth="80.0" style="-fx-background-color: #FFFFFF;" text="2">
+      <Button fx:id="btn2" layoutX="131.0" layoutY="429.0" mnemonicParsing="false" prefHeight="58.0" prefWidth="80.0" style="-fx-background-color: #FFFFFF;" text="2">
          <font>
             <Font name="Arial" size="25.0" />
          </font>
       </Button>
-      <Button fx:id="btn" layoutX="226.0" layoutY="429.0" mnemonicParsing="false" prefHeight="58.0" prefWidth="80.0" style="-fx-background-color: #FFFFFF;" text="3">
+      <Button fx:id="btn3" layoutX="226.0" layoutY="429.0" mnemonicParsing="false" prefHeight="58.0" prefWidth="80.0" style="-fx-background-color: #FFFFFF;" text="3">
          <font>
             <Font name="Arial" size="25.0" />
          </font>
